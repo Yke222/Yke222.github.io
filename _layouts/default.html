@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <style>
+      :root { color-scheme: light dark; --accent: #2f6fed; }
+      body {
+        font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        max-width: 760px; margin: 0 auto; padding: 24px 20px 64px;
+      }
+      header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+      header a.brand { font-weight: 700; text-decoration: none; color: inherit; }
+      nav.lang a { margin-left: 10px; }
+      a { color: var(--accent); }
+      h1 { line-height: 1.25; }
+      h2 { margin-top: 2em; }
+      footer { margin-top: 48px; font-size: 14px; opacity: .75; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/roku-sleep-timer/">{{ site.title }}</a>
+      {% if page.alternates %}
+      <nav class="lang">
+        {% for alt in page.alternates %}<a href="{{ alt[1] }}" hreflang="{{ alt[0] }}">{{ alt[0] | upcase }}</a>{% endfor %}
+      </nav>
+      {% endif %}
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      Roku Sleep Timer is an independent app and is not affiliated with, endorsed by or sponsored by Roku, Inc. Roku is a trademark of Roku, Inc.
+    </footer>
+  </body>
+</html>

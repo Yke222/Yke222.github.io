@@ -1,0 +1,4 @@
+# app-ads.txt for the developer of Roku Sleep Timer.
+# Replace pub-0000000000000000 with the AdMob publisher id (AdMob > Settings > Account information)
+# and remove the leading "# " from the line below.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
