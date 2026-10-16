@@ -3,7 +3,7 @@ description: Sleep timer that turns your Roku and TV off from your phone.
 # Set to a support address to show it on every legal and support page.
 contact_email: ""
 issues_url: https://github.com/Yke222/Yke222.github.io/issues
-policy_effective_date: "2026-10-13"
+policy_effective_date: "2026-10-16"
 markdown: kramdown
 exclude:
   - README.md

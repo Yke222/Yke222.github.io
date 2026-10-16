@@ -16,8 +16,9 @@ This policy explains what information the Roku Sleep Timer app ("the app") handl
 
 ## Summary
 
-- We do not run servers, we do not have user accounts and we never receive your personal information.
+- We do not run servers and we do not have user accounts.
 - Your Roku's details and your settings stay on your phone.
+- The app sends usage statistics and crash reports to Google Firebase, tied only to a random identifier, so we can fix problems and improve it.
 - The app shows ads through Google AdMob. Google may collect device identifiers and usage data to show and measure ads, as described below.
 
 ## Information stored on your phone
@@ -47,6 +48,17 @@ Google uses this data to show ads, measure their performance, limit how often yo
 
 Learn more in [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites) and in [Google's privacy policy](https://policies.google.com/privacy).
 
+## Usage statistics and crash reports (Google Firebase)
+
+The app uses Google Analytics for Firebase and Firebase Crashlytics, provided by Google. They collect:
+
+- how the app is used, such as the screens opened, timers started or cancelled, whether connecting to the Roku or turning it off worked, and whether the opening ad was shown;
+- device and app information, such as model, operating system, language, app version and a random identifier for this installation;
+- crash reports with the technical state of the app when it failed;
+- the approximate location (country or region) derived from your IP address.
+
+These statistics never include your Roku's IP address, name or serial number. We use them only to understand how the app is used, fix errors and improve it, and we do not use them to identify you or to show you ads. Google keeps analytics data for up to 14 months and crash reports for up to 90 days. Learn more in [Privacy and security in Firebase](https://firebase.google.com/support/privacy).
+
 ## Notifications
 
 On iOS the app can schedule a local notification to remind you when a timer ends. It is created on your phone and is not sent through any server.
@@ -55,7 +67,7 @@ On iOS the app can schedule a local notification to remind you when a timer ends
 
 - We do not sell your personal information.
 - We do not collect your contacts, photos, precise location or files.
-- We do not use our own analytics or tracking.
+- We do not combine the usage statistics with other data to identify you.
 
 ## Children
 
@@ -63,7 +75,7 @@ The app is not directed to children under 13 and we do not knowingly collect inf
 
 ## Your rights
 
-Depending on where you live (for example under Brazil's LGPD, the EU GDPR or California's CCPA), you may have rights to access, correct or delete personal data and to object to its processing. We do not hold personal data about you. For data processed by Google for advertising, use the controls above or [Google's privacy tools](https://myaccount.google.com/data-and-privacy).
+Depending on where you live (for example under Brazil's LGPD, the EU GDPR or California's CCPA), you may have rights to access, correct or delete personal data and to object to its processing. We do not hold data that identifies you: usage statistics are linked only to a random identifier, which is deleted when you uninstall the app. For data processed by Google for advertising, use the controls above or [Google's privacy tools](https://myaccount.google.com/data-and-privacy).
 
 ## Changes
 
