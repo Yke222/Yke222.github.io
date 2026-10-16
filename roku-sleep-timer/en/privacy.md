@@ -19,6 +19,7 @@ This policy explains what information the Roku Sleep Timer app ("the app") handl
 - We do not run servers, we do not have user accounts and we never receive your personal information.
 - Your Roku's details and your settings stay on your phone.
 - The app shows ads through Google AdMob. Google may collect device identifiers and usage data to show and measure ads, as described below.
+- The app uses Google Firebase Analytics and Crashlytics to understand how the app is used and to fix crashes. Those services may collect device and usage data, as described below.
 
 ## Information stored on your phone
 
@@ -47,6 +48,17 @@ Google uses this data to show ads, measure their performance, limit how often yo
 
 Learn more in [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites) and in [Google's privacy policy](https://policies.google.com/privacy).
 
+
+## Analytics and crash reports (Google Firebase)
+
+The app uses Google Firebase Analytics and Firebase Crashlytics so we can see which features are used, where setup fails, and when the app crashes. Firebase may collect and process:
+
+- app events, such as opening screens, connecting a Roku, starting or cancelling a timer, and whether power-off succeeded;
+- crash and diagnostic data, such as stack traces, app version and device model;
+- device identifiers used by Google Analytics for Firebase (for example the app-instance id).
+
+These reports do not include your Roku's name, IP address or serial number. We use them only to improve the app and fix bugs. Learn more in [Google's privacy policy](https://policies.google.com/privacy) and the [Firebase privacy information](https://firebase.google.com/support/privacy).
+
 ## Notifications
 
 On iOS the app can schedule a local notification to remind you when a timer ends. It is created on your phone and is not sent through any server.
@@ -55,7 +67,7 @@ On iOS the app can schedule a local notification to remind you when a timer ends
 
 - We do not sell your personal information.
 - We do not collect your contacts, photos, precise location or files.
-- We do not use our own analytics or tracking.
+- We do not sell analytics data. Crash and usage reports go only to Google Firebase for the purposes above.
 
 ## Children
 
@@ -63,7 +75,7 @@ The app is not directed to children under 13 and we do not knowingly collect inf
 
 ## Your rights
 
-Depending on where you live (for example under Brazil's LGPD, the EU GDPR or California's CCPA), you may have rights to access, correct or delete personal data and to object to its processing. We do not hold personal data about you. For data processed by Google for advertising, use the controls above or [Google's privacy tools](https://myaccount.google.com/data-and-privacy).
+Depending on where you live (for example under Brazil's LGPD, the EU GDPR or California's CCPA), you may have rights to access, correct or delete personal data and to object to its processing. We do not hold personal data about you on our own servers. For data processed by Google for advertising, analytics or crash reports, use the controls above or [Google's privacy tools](https://myaccount.google.com/data-and-privacy).
 
 ## Changes
 

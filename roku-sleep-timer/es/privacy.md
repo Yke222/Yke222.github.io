@@ -19,6 +19,7 @@ Esta política explica qué información trata la app Roku Sleep Timer ("la app"
 - No tenemos servidores ni cuentas de usuario, y nunca recibimos tu información personal.
 - Los datos de tu Roku y tu configuración se quedan en tu teléfono.
 - La app muestra anuncios de Google AdMob. Google puede recopilar identificadores del dispositivo y datos de uso para mostrar y medir anuncios, como se describe abajo.
+- La app usa Google Firebase Analytics y Crashlytics para entender cómo se usa la app y corregir fallos. Esos servicios pueden recopilar datos del dispositivo y de uso, como se describe abajo.
 
 ## Información guardada en tu teléfono
 
@@ -47,6 +48,17 @@ Google usa estos datos para mostrar anuncios, medir su rendimiento, limitar la f
 
 Más información en [Cómo utiliza Google la información de sitios web o aplicaciones que utilizan sus servicios](https://policies.google.com/technologies/partner-sites?hl=es) y en la [Política de Privacidad de Google](https://policies.google.com/privacy?hl=es).
 
+
+## Análisis e informes de fallos (Google Firebase)
+
+La app usa Google Firebase Analytics y Firebase Crashlytics para ver qué funciones se usan, dónde falla la configuración y cuándo se cierra la app. Firebase puede recopilar y tratar:
+
+- eventos de la app, como abrir pantallas, conectar un Roku, iniciar o cancelar un temporizador, y si el apagado funcionó;
+- datos de fallos y diagnóstico, como stack traces, versión de la app y modelo del dispositivo;
+- identificadores de dispositivo usados por Google Analytics for Firebase (por ejemplo el app-instance id).
+
+Estos informes no incluyen el nombre, la IP ni el número de serie de tu Roku. Los usamos solo para mejorar la app y corregir errores. Más información en la [Política de Privacidad de Google](https://policies.google.com/privacy?hl=es) y en la [información de privacidad de Firebase](https://firebase.google.com/support/privacy?hl=es).
+
 ## Notificaciones
 
 En iOS, la app puede programar una notificación local para recordarte cuándo termina un temporizador. Se crea en el propio teléfono y no pasa por ningún servidor.
@@ -55,7 +67,7 @@ En iOS, la app puede programar una notificación local para recordarte cuándo t
 
 - No vendemos tu información personal.
 - No recopilamos contactos, fotos, ubicación precisa ni archivos.
-- No usamos herramientas propias de análisis o seguimiento.
+- No vendemos datos de análisis. Los informes de uso y fallos van solo a Google Firebase para los fines anteriores.
 
 ## Menores
 
@@ -63,7 +75,7 @@ La app no está dirigida a menores de 13 años y no recopilamos su información 
 
 ## Tus derechos
 
-Según dónde vivas (por ejemplo, por la LGPD de Brasil, el RGPD de la Unión Europea o la CCPA de California), puedes tener derecho a acceder, corregir o eliminar datos personales y a oponerte a su tratamiento. No guardamos datos personales sobre ti. Para los datos que Google trata para anuncios, usa los controles anteriores o las [herramientas de privacidad de Google](https://myaccount.google.com/data-and-privacy?hl=es).
+Según dónde vivas (por ejemplo, por la LGPD de Brasil, el RGPD de la Unión Europea o la CCPA de California), puedes tener derecho a acceder, corregir o eliminar datos personales y a oponerte a su tratamiento. No guardamos datos personales sobre ti en servidores propios. Para los datos que Google trata para anuncios, análisis o informes de fallos, usa los controles anteriores o las [herramientas de privacidad de Google](https://myaccount.google.com/data-and-privacy?hl=es).
 
 ## Cambios
 
